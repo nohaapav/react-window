@@ -29,9 +29,11 @@
    (deps-cljs :foreign-libs [{:file           #"react-window.inc.js"
                               :file-min       #"react-window.min.inc.js"
                               :provides       ["react-window"
-                                               "react-window-infinite-loader"]
+                                               "react-window-infinite-loader"
+                                               "react-virtualized-auto-sizer"]
                               :global-exports '{"react-window"                     ReactWindow
-                                                "react-window-infinite-loader"     ReactWindowInfiniteLoader}
+                                                "react-window-infinite-loader"     ReactWindowInfiniteLoader
+                                                "react-virtualized-auto-sizer"     ReactVirtualizedAutoSizer}
                               :requires       ["react" "react-dom"]}]
               :externs [#"react-window.ext.js"])
    (pom)

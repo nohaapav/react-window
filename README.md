@@ -8,6 +8,7 @@ react-window.now.sh
 
 * react-window [1.8.5]
 * react-window-infinite-loader [1.0.5]
+* react-virtualized-auto-sizer [1.0.2]
 
 ## Setup
 
@@ -48,7 +49,8 @@ you can require the packaged library like so:
 ```clojure
 (ns application.core
   (:require ["react-window"]
-            ["react-window-infinite-loader"]))
+            ["react-window-infinite-loader"]
+            ["react-virtualized-auto-sizer"]))
 ```
 
 [flibs]: https://clojurescript.org/reference/packaging-foreign-deps
